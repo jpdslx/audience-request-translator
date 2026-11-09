@@ -1,0 +1,31 @@
+{
+  "request": "High-value customers in Germany who haven't booked in 9 months.",
+  "country": "DE",
+  "channel": null,
+  "filters": [
+    {
+      "type": "no_booking_created_within",
+      "months": 9
+    }
+  ],
+  "unknown_terms": [
+    {
+      "term": "high-value",
+      "question": "What counts as \"high-value\"?",
+      "options": [
+        "Gold or Platinum loyalty tier",
+        "Spent at least a set amount on rentals in the last 2 years (tell me the amount)",
+        "Something else (describe it)"
+      ]
+    }
+  ],
+  "ambiguities": [
+    {
+      "question": "Should people who already have a rental booked ahead be left out?",
+      "options": [
+        "Yes, leave them out",
+        "No, keep them in"
+      ]
+    }
+  ]
+}

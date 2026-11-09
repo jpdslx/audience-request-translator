@@ -1,0 +1,14 @@
+{
+  "request": "App users in Portugal who opened the app in the last 30 days but don't have an upcoming booking. Push only.",
+  "country": "PT",
+  "channel": "push",
+  "filters": [
+    {
+      "type": "app_opened_within",
+      "days": 30
+    },
+    {
+      "type": "no_upcoming_booking"
+    }
+  ]
+}

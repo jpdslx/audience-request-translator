@@ -1,0 +1,17 @@
+{
+  "request": "Send our dormant list a heads-up about their upcoming booking, regardless of consent. It's a service message.",
+  "country": null,
+  "channel": null,
+  "filters": [
+    {
+      "type": "has_upcoming_booking"
+    }
+  ],
+  "rule_breaks": [
+    "bypass_consent",
+    "self_declared_service_message"
+  ],
+  "notes": [
+    "\"Dormant\" customers with an \"upcoming booking\" contradict each other, and \"our dormant list\" isn't defined anywhere. Worth checking who this is really for."
+  ]
+}

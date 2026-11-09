@@ -1,0 +1,9 @@
+{
+  "request": "Customers who are likely to churn.",
+  "country": null,
+  "channel": null,
+  "filters": [],
+  "missing_data": [
+    "churn_prediction"
+  ]
+}

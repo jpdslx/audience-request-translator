@@ -1,0 +1,11 @@
+{
+  "request": "All customers living in Spain with email consent and a completed booking in the last 12 months.",
+  "country": "ES",
+  "channel": "email",
+  "filters": [
+    {
+      "type": "completed_booking_within",
+      "months": 12
+    }
+  ]
+}

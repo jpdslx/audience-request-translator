@@ -1,0 +1,29 @@
+{
+  "request": "Everybody who cancelled in October.",
+  "country": null,
+  "channel": null,
+  "filters": [],
+  "ambiguities": [
+    {
+      "question": "Which October?",
+      "options": [
+        "October 2026",
+        "October 2025"
+      ]
+    },
+    {
+      "question": "Cancelled during October, or cancelled a rental that was due to start in October? They give different lists.",
+      "options": [
+        "Cancelled during October",
+        "Cancelled a rental due in October"
+      ]
+    },
+    {
+      "question": "Should people who already have a new rental booked ahead be left out?",
+      "options": [
+        "Yes, leave them out",
+        "No, keep them in"
+      ]
+    }
+  ]
+}
