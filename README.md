@@ -22,10 +22,19 @@ This is Option B of the case. My note on Parts 1 to 3 and how I used AI is in [`
 ## How it works
 
 ```
-manager's request ──► Claude reads it ──► structured request ──► fixed code decides ──► answer
-                      (picks from a        (market, channel,      build / ask /           for the
-                       fixed menu)          filters, flags)        push back, then         manager
-                                                                   applies the policy
+manager's request
+    │
+    ▼
+Claude reads it            picks from a fixed menu
+    │
+    ▼
+structured request         market, channel, filters, flags
+    │
+    ▼
+fixed code decides         build, ask or push back, then applies the policy
+    │
+    ▼
+answer for the manager
 ```
 
 | Step | Who does it | Why |
